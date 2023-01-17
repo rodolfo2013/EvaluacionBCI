@@ -1,4 +1,4 @@
-Instrucciones de ejecucion
+## Instrucciones de ejecucion ##
 
 1.- Bajar archivo hsqldb-2.7.1.jar desde repositorio maven (https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.7.1/hsqldb-2.7.1.jar).
 
@@ -8,7 +8,7 @@ Instrucciones de ejecucion
 
 4.- En el campo URL, agregar el valor "jdbc:hsqldb:hsql://localhost"
 
-5.- En la interfaz grafica levantada en el punto anterior, ejecutar el script que se encuentra en el respositorio. puedes bajarlo, haciendo click aqui.
+5.- En la interfaz grafica levantada en el punto anterior, ejecutar el script que se encuentra en el respositorio. puedes bajarlo, haciendo click [Aqui](https://github.com/rodolfo2013/EvaluacionBCI/blob/main/Sql/script.sql)
 
 6.- Con la base de datos ya funcionando, bajar el codigo del repositorio y abrirlo con un editor, en mi caso utilice IntelliJ-IDEA Community Edition.
 
@@ -20,7 +20,7 @@ Instrucciones de ejecucion
 
 10.- El metodo POST de la api, permite la grabacion de un usuario. El metodo GET de la api, permite listar todos los usuarios en la base de datos. 
 
-11.- La configuracion puede sen cambiada en el archivo application.properties
+11.- La configuracion puede ser cambiada en el archivo application.properties
 
 12.- Ejemplo de un JSON correcto:
 
