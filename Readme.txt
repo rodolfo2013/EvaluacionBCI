@@ -6,6 +6,8 @@ Instrucciones de ejecucion
 
 3.- En otra consola, pero en el mismo directorio donde se encuentra el archivo hsqldb-2.7.1.jar, ejecutar el comando "java -jar hsqldb-2.7.1.jar", Esto levantara una interfaz grafica para administrar la base de datos.
 
+4.- En el campo URL, agregar el valor "jdbc:hsqldb:hsql://localhost"
+
 4.- En la interfaz grafica levantada en el punto anterior, ejecutar el script que se encuentra en el respositorio. puedes bajarlo, haciendo click aqui.
 
 5.- Con la base de datos ya funcionando, bajar el codigo del repositorio y abrirlo con un editor, en mi caso utilice IntelliJ-IDEA Community Edition.
