@@ -1,8 +1,11 @@
 package cl.bci.login.dto;
 
+import lombok.Data;
+
+@Data
 public class PhonesDTO {
 
     private int number;
-    private int cityCode;
-    private int contryCode;
+    private int citycode;
+    private int contrycode;
 }

@@ -5,17 +5,16 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Data
 public class UserExtendDTO extends UserDTO{
 
     private String uuid;
-    private LocalDate created;
-    private LocalDate modified;
-    private LocalDate last_login;
+    private String created;
+    private String modified;
+    private String last_login;
     private String token;
     private Boolean isactive;
 
-    @JsonIgnore
-    private String error;
 }

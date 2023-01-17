@@ -2,10 +2,11 @@ package cl.bci.login.database.model;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Set;
 
 @Data
 @Entity
@@ -16,9 +17,12 @@ public class User {
     private String name;
     private String email;
     private String password;
-    private LocalDate created;
-    private LocalDate modified;
-    private LocalDate last_login;
+    private LocalDateTime created;
+    private LocalDateTime modified;
+    private LocalDateTime last_login;
     private String token;
     private Boolean isactive;
+
+    @OneToMany(mappedBy="uuid", cascade = {CascadeType.ALL})
+    private Set<Phones> phones;
 }
